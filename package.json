@@ -1,0 +1,35 @@
+{
+  "name": "node-mysql-registration-login-api",
+  "version": "1.0.0",
+  "description": "Node.js + MySQL API for User Management, Authentication and Registration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "start:dev": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ravi1717/nodejs_sequelize_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ravi1717/nodejs_sequelize_project/issues"
+  },
+  "homepage": "https://github.com/Ravi1717/nodejs_sequelize_project#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.5",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "rootpath": "^0.1.2",
+    "sequelize": "^6.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
