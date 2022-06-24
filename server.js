@@ -7,12 +7,13 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 app.use(cors());
+const errorHandler = require('./_middlewares/error-handler');
 
 //api routes
 app.use('/users', require('./users/user.controller'));
 
 //global error handler
-
+app.use(errorHandler);
 
 //start server
 
